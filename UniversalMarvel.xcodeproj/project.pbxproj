@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		290BE77E2943D86700CF63D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BE77D2943D86700CF63D1 /* AppDelegate.swift */; };
 		290BE7802943D86700CF63D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BE77F2943D86700CF63D1 /* SceneDelegate.swift */; };
-		290BE7822943D86700CF63D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BE7812943D86700CF63D1 /* ViewController.swift */; };
 		290BE7852943D86700CF63D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290BE7832943D86700CF63D1 /* Main.storyboard */; };
 		290BE7872943D86800CF63D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290BE7862943D86800CF63D1 /* Assets.xcassets */; };
 		290BE78A2943D86800CF63D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290BE7882943D86800CF63D1 /* LaunchScreen.storyboard */; };
+		290BE7922943D8D500CF63D1 /* MarvelTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BE7912943D8D500CF63D1 /* MarvelTVC.swift */; };
+		290BE7942943D8EC00CF63D1 /* Marvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BE7932943D8EC00CF63D1 /* Marvel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		290BE77A2943D86700CF63D1 /* UniversalMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		290BE77D2943D86700CF63D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		290BE77F2943D86700CF63D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		290BE7812943D86700CF63D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		290BE7842943D86700CF63D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		290BE7862943D86800CF63D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290BE7892943D86800CF63D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290BE78B2943D86800CF63D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290BE7912943D8D500CF63D1 /* MarvelTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelTVC.swift; sourceTree = "<group>"; };
+		290BE7932943D8EC00CF63D1 /* Marvel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Marvel.swift; path = ../../../../../Downloads/Marvel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				290BE77D2943D86700CF63D1 /* AppDelegate.swift */,
 				290BE77F2943D86700CF63D1 /* SceneDelegate.swift */,
-				290BE7812943D86700CF63D1 /* ViewController.swift */,
 				290BE7832943D86700CF63D1 /* Main.storyboard */,
+				290BE7912943D8D500CF63D1 /* MarvelTVC.swift */,
 				290BE7862943D86800CF63D1 /* Assets.xcassets */,
 				290BE7882943D86800CF63D1 /* LaunchScreen.storyboard */,
 				290BE78B2943D86800CF63D1 /* Info.plist */,
+				290BE7932943D8EC00CF63D1 /* Marvel.swift */,
 			);
 			path = UniversalMarvel;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290BE7822943D86700CF63D1 /* ViewController.swift in Sources */,
+				290BE7922943D8D500CF63D1 /* MarvelTVC.swift in Sources */,
 				290BE77E2943D86700CF63D1 /* AppDelegate.swift in Sources */,
+				290BE7942943D8EC00CF63D1 /* Marvel.swift in Sources */,
 				290BE7802943D86700CF63D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
